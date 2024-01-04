@@ -1,43 +1,39 @@
-Certainly! Here is the updated quick start guide:
+# EAI Frontend quick setup guide
 
-# EAI-Backend Golang Project
+Follow these steps to quickly set up and run the React application in this repository.
 
-## Quick Start Guide
+## Prerequisites
 
-Follow these steps to quickly set up and run the EAI-Backend Golang project.
+Make sure you have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed on your machine.
 
-### Prerequisites
-
-Make sure you have [Go](https://golang.org/doc/install) (version 1.16 or higher) installed on your machine.
-
-### Getting Started
+## Getting Started
 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/mukeshkuiry/EAI-Backend.git
+   git clone https://github.com/mukeshkuiry/EAI-Frontend.git
    ```
 
 2. **Navigate to the project directory:**
 
    ```bash
-   cd EAI-Backend
+   cd EAI-Frontend
    ```
 
-3. **Install project dependencies:**
+3. **Install dependencies:**
 
    ```bash
-   go mod download
+   npm install
    ```
 
-### Run the Application
+## Run the Application
 
-4. **Run the application:**
+4. **Start the development server:**
 
    ```bash
-   go run main.go
+   npm start
    ```
 
-5. Access the application at [http://localhost:4000](http://localhost:4000) in your browser.
+5. Open your browser and go to [http://localhost:3000](http://localhost:3000) to view the application.
 
-That's it! You've successfully set up and run the EAI-Backend Golang project.
+That's it! You've successfully set up and run the React application.
